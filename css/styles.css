@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    width: 55%;
+    padding: 14px;
+    margin: 25px auto;
+    font-size: .7rem;
+}
+
+.photo_gallery {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-template-rows: repeat(3, 200px);
+    gap: 30px 20px; 
+}
