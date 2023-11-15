@@ -8,19 +8,22 @@ body {
 }
 
 div {
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: center;
 }
 
 input {
     width: 55%;
-    padding: 14px;
+    padding: 15px;
     margin: 25px auto;
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .photo_gallery {
     display: grid; 
-    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) ); 
-    grid-template-rows: repeat(3, 200px);
-    gap: 40px 5px; 
+    grid-template-columns: repeat( auto-fit, minmax(200px, 200px) );
+    grid-template-rows: repeat( auto-fit, minmax(200px, 200px) );
+    gap: 30px 25px;
+    justify-content: center; 
 }
